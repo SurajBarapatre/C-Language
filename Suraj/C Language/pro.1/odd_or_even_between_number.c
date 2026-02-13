@@ -3,11 +3,11 @@
 void main()
 {
 	//wap to check number is even or odd?
-	int a;
+	int number;
 	printf("Enter Number : ");
-	scanf("%d",&a);
+	scanf("%d",&number);
 	
-	if(a%2==0)
+	if(number%2==0)
 	{
 		printf("even number");
 	}
@@ -16,3 +16,4 @@ void main()
 		printf("odd number! ");
 	}	
 }
+
