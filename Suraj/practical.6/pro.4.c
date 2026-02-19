@@ -19,16 +19,16 @@ void main()
 	scanf("%d",&e);
 	
 		//a,b,c,d,e
-	if(a<b)
+	if(a<=b)
 	{
 		//c,d,e,
-		if(a<c)
+		if(a<=c)
 		{
 			//d,e
-			if(a<d)
+			if(a<=d)
 			{
 				//e
-				if(a<e)
+				if(a<=e)
 				{
 					//a
 					printf("a is minimum !");
@@ -43,7 +43,7 @@ void main()
 			else
 			{
 				//d,e
-				if(d<e)
+				if(d<=e)
 				{
 					//d
 					printf("d is minimum !"); 	
@@ -59,10 +59,10 @@ void main()
 		{
 			//c,d,e
 			//d,e
-			if(c<d)
+			if(c<=d)
 			{
 				//e
-				if(c<e)
+				if(c<=e)
 				{
 					//c
 					printf("c is minimum !");
@@ -94,13 +94,13 @@ void main()
 	{
 		//b,c,d,e
 		//c,d,e
-		if(b<c)
+		if(b<=c)
 		{
 			//d,e
-			if(b<d)
+			if(b<=d)
 			{
 				//e
-				if(b<e)
+				if(b<=e)
 				{
 					//b
 					printf("b is minimum !");
@@ -114,7 +114,7 @@ void main()
 			else
 			{
 				//d,e
-				if(d<e)
+				if(d<=e)
 				{
 					//d
 					printf("d is minimum !"); 	
@@ -146,7 +146,7 @@ void main()
 			else
 			{
 				//d,e
-				if(d<e)
+				if(d<=e)
 				{
 					//d
 					printf("d is minimum !"); 	
@@ -160,3 +160,4 @@ void main()
 		}	
 	}	
 }
+
