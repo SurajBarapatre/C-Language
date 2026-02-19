@@ -20,7 +20,7 @@ scanf ("%d",&d);
 printf("enter e : ");
 scanf ("%d",&e)
 
-//a,b,c,d
+//a,b,c,d,e
 
 if (a>b && a>c && a>d && a>e)
 
@@ -50,4 +50,5 @@ printf("a,b,c,d and e all are equal !");
 }
 	
 }
+
 
