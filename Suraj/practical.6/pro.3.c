@@ -17,15 +17,15 @@ void main()
 	scanf("%d",&d);
 	
 	// a,b,c,d
-	if(a>b)
+	if(a>=b)
 	
 	{
 	    
-		if(a>c)
+		if(a>=c)
 		{
 			
 			
-			if(a>d)
+			if(a>=d)
 			{
 				//a
 				printf("a is maximum !");
@@ -41,7 +41,7 @@ void main()
 				else
 		{
 			//c,d
-			if(c>d)
+			if(c>=d)
 			{
 				//c
 				printf("c is maximum !");
@@ -57,10 +57,10 @@ void main()
 	else
 	{
 		//b,c,d
-		if(b>c)
+		if(b>=c)
 		{
 			//b,d
-			if(b>d)
+			if(b>=d)
 			{
 				//b
 				printf("b is maximum !");
@@ -73,7 +73,7 @@ void main()
 		}
 		else
 		{
-			if(c>d)
+			if(c>=d)
 			{
 				//c
 				printf("c is maximum !");
@@ -86,3 +86,4 @@ void main()
 		}
 	}	
 }
+
