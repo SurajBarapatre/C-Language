@@ -17,19 +17,19 @@ scanf ("%d",&c);
 
 //a,b,c
 
-if (a>b && a>c)
+if (a>=b && a>=c)
 
 {
 	printf(" a is maximum !");
 }
 
-else if (b>c && b>a)
+else if (b>=c && b>=a)
 
 {
 	printf("b is maximum !");
 }
 
-else if (c>a && c>b)
+else if (c>=a && c>=b)
 
 {
 	printf("c is maximum !");
@@ -42,3 +42,4 @@ else
 }
 
 }
+
