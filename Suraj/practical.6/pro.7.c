@@ -22,25 +22,25 @@ scanf ("%d",&e)
 
 //a,b,c,d,e
 
-if (a>b && a>c && a>d && a>e)
+if (a>=b && a>=c && a>=d && a>=e)
 
 { 
  printf(" a is maximum !");
 }
 
-else if (b>a && b>c && b>d && b>e)
+else if (b>=a && b>=c && b>=d && b>=e)
 {
  printf(" b is maximum !");
 }
-else if (c>a && c>b && c>d && c>e)
+else if (c>=a && c>=b && c>=d && c>=e)
 {
  printf ("c is maximum !");
 }
-else if (d>a && d>b && d>c && d>e)
+else if (d>=a && d>=b && d>=c && d>=e)
 {
  printf("d is maximum !");
 }
-else if (e>a && e>b && e>c && e>d)
+else if (e>=a && e>=b && e>=c && e>=d)
 {
  printf (" e is maximum !");
 }
@@ -50,5 +50,6 @@ printf("a,b,c,d and e all are equal !");
 }
 	
 }
+
 
 
