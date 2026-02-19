@@ -76,7 +76,7 @@ void main()
 			else
 			{
 				//d,e
-				if(d<e)
+				if(d<=e)
 				{
 					//d
 					printf("d is minimum !");
@@ -160,4 +160,5 @@ void main()
 		}	
 	}	
 }
+
 
