@@ -16,19 +16,19 @@ void main()
 	printf(" Enter d :");
 	scanf("%d",&d);
 	
-	if(a>b)
+	if(a>=b)
 	{
 		printf(" a is max.");
 	}
 	else
 	{
-		if(b>c)
+		if(b>=c)
 		{
 			printf(" b is max.");
 		}
 		else
 		{
-			if(c>d)
+			if(c>=d)
 			{
 				printf(" c is max.");
 			}
@@ -39,3 +39,4 @@ void main()
 		}
 	}	
 }
+
