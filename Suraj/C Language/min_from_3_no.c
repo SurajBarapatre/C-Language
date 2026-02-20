@@ -14,14 +14,14 @@ void main()
 	printf(" Enter c :");
 	scanf("%d",&c);
 	
-	if(a<b)
+	if(a<=b)
 	{
 		printf(" a is min.");
 	 	
 	}
 	else
 	{
-		if(b<c)
+		if(b<=c)
 		{
   		    printf(" b is min.");	
 		}
@@ -31,3 +31,4 @@ void main()
 		}	
 	}
 }
+
