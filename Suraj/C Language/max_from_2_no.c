@@ -4,7 +4,7 @@
 void main()
 
 {
-	//WAP to Find max. from given 2 no. using ternary operator
+	//WAP to Find maximum from given 2 no. using ternary operator
 	
 	int a,b;
 	printf(" Enter a: ");
@@ -14,11 +14,12 @@ void main()
 	
 	if(a>=b)
 	{
-		printf(" a is max.");
+		printf(" a is maximum !");
 	}
 	else
 	{
-		printf(" b is max.");
+		printf(" b is maximum !");
 	}
 }
+
 
