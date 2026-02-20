@@ -4,7 +4,7 @@
 void main()
 
 {
-	//WAP to Find min. from given 5 no. using nested if else
+	//WAP to Find minimum from given 5 no. using nested if else
 	
 	int a,b,c,d,e;
 	printf(" Enter a :");
@@ -20,32 +20,33 @@ void main()
 	
 	if(a<=b)
 	{
-		printf(" a is min.");
+		printf(" a is minimum !");
 	}
 	else
 	{
 		if(b<=c)
 		{
-			printf(" a is min.");
+			printf(" a is minimum !");
 		}
 		else
 		{
 			if(c<=d)
 			{
-				printf(" c is min.");
+				printf(" c is minimum !");
 			}
 			else
 			{
 				if(d<=e)
 				{
-					printf(" d is min.");
+					printf(" d is minimum !");
 				}
 				else
 				{
-					printf(" e is min.");
+					printf(" e is minimum !");
 				}
 			}
 		}
 	}
 }
+
 
