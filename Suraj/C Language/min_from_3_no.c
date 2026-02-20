@@ -4,7 +4,7 @@
 void main()
 
 {
-	//WAP to Find min. from given 3 no. using nested if else
+	//WAP to Find minimum from given 3 no. using nested if else
 
 	int a,b,c;
 	printf(" Enter a :");
@@ -16,19 +16,20 @@ void main()
 	
 	if(a<=b)
 	{
-		printf(" a is min.");
+		printf(" a is minimum !");
 	 	
 	}
 	else
 	{
 		if(b<=c)
 		{
-  		    printf(" b is min.");	
+  		    printf(" b is minimum !");	
 		}
 		else
 		{
-  		    printf(" c is min.");
+  		    printf(" c is minimum !");
 		}	
 	}
 }
+
 
