@@ -4,7 +4,7 @@
 void main()
 
 {
-	//WAP to Find max. from given 4 no. using nested if else
+	//WAP to Find maximum from given 4 no. using nested if else
 	
 	int a,b,c,d;
 	printf(" Enter a :");
@@ -18,25 +18,26 @@ void main()
 	
 	if(a>=b)
 	{
-		printf(" a is max.");
+		printf(" a is maximum !");
 	}
 	else
 	{
 		if(b>=c)
 		{
-			printf(" b is max.");
+			printf(" b is maximum !");
 		}
 		else
 		{
 			if(c>=d)
 			{
-				printf(" c is max.");
+				printf(" c is maximum !");
 			}
 			else
 			{
-				printf(" d is max.");
+				printf(" d is maximum !");
 			}
 		}
 	}	
 }
+
 
