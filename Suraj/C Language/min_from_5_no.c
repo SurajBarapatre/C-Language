@@ -18,25 +18,25 @@ void main()
 	printf(" Enter e :");
 	scanf("%d",&e);
 	
-	if(a<b)
+	if(a<=b)
 	{
 		printf(" a is min.");
 	}
 	else
 	{
-		if(b<c)
+		if(b<=c)
 		{
 			printf(" a is min.");
 		}
 		else
 		{
-			if(c<d)
+			if(c<=d)
 			{
 				printf(" c is min.");
 			}
 			else
 			{
-				if(d<e)
+				if(d<=e)
 				{
 					printf(" d is min.");
 				}
@@ -48,3 +48,4 @@ void main()
 		}
 	}
 }
+
