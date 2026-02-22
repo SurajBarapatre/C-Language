@@ -1,11 +1,10 @@
 
 
-
 #include<stdio.h>
 
 void main()
 {
-  //wap to print odd number from n to 1 using do...while loop
+  //wap to print odd number from n to 1 using while loop
   
   // starting point =n, ending point=1
 	
@@ -13,7 +12,7 @@ void main()
 	printf("Enter n: ");
 	scanf("%d",&n);
 	
-	do
+	while(i<=n)  // while i++ till i is less then equal to n
 	{
 	  if(i%2==1) // if i is reminder 1 then you get odd number	
 	  {
@@ -21,6 +20,5 @@ void main()
 	  }	
 		i++;
 	}
-	while(i<=n);  // do...while i++ till i is less then equal to n
 }
 

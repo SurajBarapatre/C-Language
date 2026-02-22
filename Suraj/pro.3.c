@@ -4,17 +4,16 @@
 
 void main()
 {
-  //wap to print 1 to n using do...while loop
+  //wap to print 1 to n using while loop
 	
 	int n, i=1;
 	printf("Enter n: ");
 	scanf("%d",&n);
 	
-	do
+	while(i<=n) // while i++ till i is less then equal to n
 	{
 		printf("%d\n",i);
 		i++;
 	}
-	while(i<=n); // do...while i++ till i is less then equal to n
 }
 

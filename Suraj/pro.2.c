@@ -3,14 +3,13 @@
 
 void main()
 {
-  //wap to print 10 to 1 using do...while loop
+  //wap to print 10 to 1 using while loop
 	
 	int i=10;
 	
-	do
+	while(i>=1)  // while i-- till i is greater then equal to 10
 	{
 		printf("%d\n",i);
 		i--;
 	}
-	while(i>=1);  // do...while i-- till i is greater then equal to 10
 }

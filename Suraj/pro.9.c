@@ -4,16 +4,17 @@
 void main()
 {
 	
-	// wap to calculate the factorial number of using while loop
+	// wap to calculate the factorial number of using do...while loop
 	
 	int n, i=1, factorial=1;
 	printf("Enter the factorial number: ");
 	scanf("%d",&n);
 	
-	while(i<=n) // while i is less then equal to n
+	do
 	{
-		factorial = factorial * i; // while you have variable factorial multiplied with variable i you will get exact factorial number
+		factorial *= i; // do...while you have variable factorial multiplied with variable i you will get exact factorial number
 		i++;
 	}
-	printf("the factorial number is = %d",factorial);
+	while(i<=n); // while i is less then equal to n
+	printf("the factorial number is = %d\n",factorial);
 }
