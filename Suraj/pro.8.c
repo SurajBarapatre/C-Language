@@ -4,16 +4,19 @@
 void main()
 {
 	
-	// wap to print sum 1 to n using while loop
+	// wap to print sum 1 to n using do... while loop
 	
+	// starting point = 1, ending point =n
 	int n, i=1, sum=0;
+	
 	printf("Enter n: ");
 	scanf("%d",&n);
 	
-	while(i<=n) // while i is less then n
+	do
 	{
-		sum = sum + i; // while you have variable sum add equal too in variable i you will get exact total sum
+		sum += i; // do...while you have variable sum add equal too in variable i you will get exact total sum
 		i++;
 	}
-	printf("sum = %d",sum,n);
+	while(i<=n); // while i is less then equal to n
+	printf("sum = %d\n",sum);
 }
