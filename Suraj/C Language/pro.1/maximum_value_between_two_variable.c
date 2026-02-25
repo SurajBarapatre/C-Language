@@ -10,7 +10,7 @@ void main()
 	printf("enter b :");
 	scanf("%d",&b);
 	
-	if(a>b)
+	if(a>=b)
 	{
 		printf("a is maximum");
 	}
@@ -21,4 +21,5 @@ void main()
 	
 	
 }
+
 
