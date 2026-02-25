@@ -23,7 +23,42 @@ void main()
 			(score>=51 && score<=60)? 'D':
 			(score>=41 && score<=50)? 'E':'F';
 						
-			printf(" Your Grade is %c",grade);
+			printf(" Your Grade is %c\n", grade);
+			
+	//further,extend the program to provide additional commnents based on the grade using switch-case statement.
+	// for exa.,if the grade is 'A',then print "Excellent work",if the grade is 'B'then print "Well done",if the grade
+	//is 'C',then print "Good job",if the grade is 'D',then print "You Passed, but you could do Better",if the grade is
+	//'F',the print "Sorry ! Your Failed, Please try Again Next Time".
 	
+	switch(grade)   // Solution.2-
+	{
+		case 'A': printf ( "Excellent Work !");
+		break;
+		
+		case 'B': printf ( "Well Done !");
+		break;
+		
+		case 'C': printf ( "Good Job !");
+		break;
+		
+		case 'D': printf ("You Passed, But you could do Better");
+		break;
+			
+		default : printf("Sorry! Your Failed, Please Try again Next Time.");
+	}
 
+// extand the program to check eligibility for the next level based on the grade using an if-else statement,
+ //print 'congratulations ! You are a eligible for next level'if the grade is from 'A to 'D',print 'please try again
+ // next time'if grade if'F'.
+ 
+  
+ if(grade>='A' && grade<='D')
+ {
+  printf("Congratulations ! You are a Eligible For Next Level.\n");
+ }
+	else
+	{
+		printf("Your Not eligible for next level.\n");
+	}
+	
 }
