@@ -8,11 +8,12 @@ void main()
 	
 	 a = a + b;
 	 b = a - b;
-	 a = b - a;
+	 a = a - b;
 	 
-	 printf("%d\n",a);
-	 printf("%d",b);
+	 printf("a =%d\n",a);
+	 printf("b=%d",b);
 	 
 	
 }
+
 
