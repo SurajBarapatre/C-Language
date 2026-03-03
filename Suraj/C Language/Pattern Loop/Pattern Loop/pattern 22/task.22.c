@@ -3,18 +3,19 @@
 
 void main()
 {
-	int i,j;
-	char ch='A';
+	int i,j,k;
+	char k='A';
 	
-	for(i=1; i<=5; i++)
+	for(i='A'; i<='E'; i++)
 	{
-		for(j=1; j<=i; j++)
+		for(j='A'; j<=i; j++)
 		{
-			printf("%c ",ch);
+			printf("%c ",k);
 			
-			ch++;
+			k++;
 		}
 		printf("\n");
 	}
 }
+
 
