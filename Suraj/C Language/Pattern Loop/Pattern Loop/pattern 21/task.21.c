@@ -4,7 +4,7 @@
 void main()
 {
 	char i,j,k;
-	 k='A';
+	 k ='A';
 	
 	for(i='A'; i<='E'; i++)
 	{
@@ -17,5 +17,6 @@ void main()
 		printf("\n");
 	}
 }
+
 
 
