@@ -3,8 +3,8 @@
 
 void main()
 {
-	int i,j,k;
-	char k='A';
+	char i,j,k;
+	k='A';
 	
 	for(i='A'; i<='E'; i++)
 	{
@@ -17,5 +17,6 @@ void main()
 		printf("\n");
 	}
 }
+
 
 
