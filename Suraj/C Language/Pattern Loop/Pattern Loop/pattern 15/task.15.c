@@ -16,8 +16,9 @@ void main()
 		{
 			printf("0 ");
 		}
-		printf("\n");
+		printf("\n"); // new line after new row
 	}
 }
+
 
 
