@@ -2,19 +2,18 @@
 
 void main()
 {
-	int i,j,k=5;
+	int i,j,k;
 	
-	for(i=k; i>=1; i--) // Outer loop for rows
+	for(i=5; i>=1; i--) // Outer loop for rows
 	{
-		for(j=1; j<=k-i; j++) // Inner loop for printing spaces
+		for(j=1; j<i; j++) // Inner loop for printing spaces
 		{
 			printf("  "); // Printing two spaces for alignment
 		}
-		for(j=i; j<=5; j++) // Inner loop for printing numbers in ascending order
+		for(k=i; k<=5; k++) // Inner loop for printing numbers in ascending order
 		{
-			printf("%d ",j);
+			printf("%d ",k);
 		}
 		printf("\n"); // new line after new row
 	}
 }
-
