@@ -2,15 +2,15 @@
 
 void main()
 {
-	int i,j,k=5;
+	int i,j,k;
 	
-	for(i=k; i>=1; i--) // Outer loop for rows
+	for(i=5; i>=1; i--) // Outer loop for rows
 	{
-		for(j=1; j<=k-i; j++) // Inner loop for printing spaces
+		for(j=1; j<=i-1; j++) // Inner loop for printing spaces
 		{
 			printf("  "); // Printing two spaces for alignment
 		}
-		for(j=1; j<=i; j++) // Inner loop for the row printing numbers repeated
+		for(k=5; k>=i; k--) // Inner loop for the row printing numbers repeated
 		{
 			printf("%d ",i);
 		}
