@@ -2,11 +2,11 @@
 
 void main()
 {
-	  1 2 3 4 5
-        2 3 4 5
-          3 4 5
-            4 5
-              5
+//	    1 2 3 4 5
+//        2 3 4 5
+//          3 4 5
+ //           4 5
+ //             5
 	
 	int i,j,k=5;
 	
@@ -23,6 +23,7 @@ void main()
 		printf("\n"); // new line after new row
 	}
 }
+
 
 
 
