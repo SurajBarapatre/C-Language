@@ -1,7 +1,14 @@
 #include<stdio.h>
 
 void main()
-{
+{  
+       1 2 3 4 5
+         1 2 3 4
+           1 2 3
+             1 2
+               1
+
+	
 	int i,j,k=5;
 	
 	for(i=1; i<=5; i++) // Outer loop for rows
@@ -17,6 +24,7 @@ void main()
 		printf("\n"); // new line after new row
 	}
 }
+
 
 
 
