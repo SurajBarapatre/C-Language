@@ -2,11 +2,12 @@
 
 void main()
 {
-	      A
-        B A
-      C B A
-    D C B A
-  E D C B A
+	
+//	        A
+//        B A
+//      C B A
+//    D C B A
+//  E D C B A
 	
 	int i,j,k=5;
 	
@@ -23,5 +24,6 @@ void main()
 		printf("\n"); // new line after new row
 	}
 }   
+
 
 
