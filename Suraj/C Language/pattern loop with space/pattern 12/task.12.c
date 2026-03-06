@@ -2,6 +2,12 @@
 
 void main()
 {
+	         *
+           * *
+         * * *
+       * * * *
+     * * * * *
+	
 	int i,j,k=6;
 	
 	for(i=1; i<=5; i++) // Outer loop for rows
@@ -17,6 +23,7 @@ void main()
 		printf("\n"); // new line after new row
 	}
 }
+
 
 
 
