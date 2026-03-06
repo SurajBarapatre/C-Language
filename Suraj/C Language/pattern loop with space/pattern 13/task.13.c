@@ -2,6 +2,12 @@
 
 void main()
 {
+	      A
+        B A
+      C B A
+    D C B A
+  E D C B A
+	
 	int i,j,k=5;
 	
 	for(i=0; i<5; i++) // Outer loop for number of rows
@@ -17,4 +23,5 @@ void main()
 		printf("\n"); // new line after new row
 	}
 }   
+
 
