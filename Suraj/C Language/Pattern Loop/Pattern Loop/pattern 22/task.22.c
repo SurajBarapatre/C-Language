@@ -3,7 +3,15 @@
 
 void main()
 {
+//     A
+//     B C
+//     D E F
+//     G H I J
+//     K L M N O
+	
+	
 	char i,j,k;
+	
 	k='A';
 	
 	for(i='A'; i<='E'; i++) // Outer loop for each row
@@ -17,6 +25,7 @@ void main()
 		printf("\n"); // new line after new row
 	}
 }
+
 
 
 
