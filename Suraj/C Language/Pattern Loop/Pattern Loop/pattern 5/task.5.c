@@ -2,6 +2,13 @@
 
 void main()
 {
+
+//    5
+//    4 5
+//    3 4 5
+//    2 3 4 5
+//    1 2 3 4 5
+
 	int a,b;
 	
 	for(a=5; a>=1; a--) // outer loop for each row from 5 to 1
@@ -13,4 +20,5 @@ void main()
 		printf("\n"); // new line after new row
 	}
 }
+
 
