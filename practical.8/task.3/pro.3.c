@@ -12,14 +12,14 @@ void main()
 	
 	int a[n];                 
 	
-	for(i=0; i<n; i++)
+	for(i=1; i<=n; i++)
 	{
 		printf("Enter a %d: ",i); // for input elements
 		scanf("%d",&a[i]);
 	}
 	
 	printf("Even Elements in the array :\n"); // for print even elements
-	for(i=0; i<n; i++)
+	for(i=1; i<=n; i++)
 	{
 		if(a[i]%2==0)
 		{
@@ -27,5 +27,6 @@ void main()
 		}
 	}
 }
+
 
 
