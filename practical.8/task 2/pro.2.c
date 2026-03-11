@@ -13,9 +13,9 @@ void main()
 
     int a[n];
 
-    printf("Enter a[%d]: ",n); // for input array elements
     for(i=0; i<n; i++)
     {
+		printf("Enter a[%d]: ",n); // for input array elements
         scanf("%d", &a[i]);
     }
 
@@ -25,4 +25,5 @@ void main()
         printf("%d ", a[i]);
     }
 }
+
 
