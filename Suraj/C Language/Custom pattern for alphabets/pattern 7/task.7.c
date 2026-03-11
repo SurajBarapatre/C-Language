@@ -16,29 +16,23 @@ void main()
 
     for(i=1;i<=7;i++)
     {
-        for(j=1;j<=7;j++)
+        for(j=1;j<=5;j++)
         {
-            if(i==1 && j<=3)                 // for first row
+            if((i==1 || i==7) && (j>1 && j<5))                 // for first row
                 printf("* ");
                 
-            else if(i==2 && (j==1 || j==6))  // for second row
-                printf(" * ");
-                
-            else if(i==3 && j==1)            // for third row
-                printf(" * ");
-                
-            else if(i==4 && j<=4)            // for middle row
+            else if(i==2 && (j==1 || j==6))                  // for second row
                 printf("* ");
                 
-            else if(i==5 && (j==1 || j==7))  // for fifth row
-                printf(" * ");
-                
-            else if(i==6 && (j==1 || j==6))  // for sixth row
+            else if(j==1 && (i>1 && i<7))                   // for third row
                 printf("* ");
                 
-            else if(i==7 && j<=3)            // for last row
-                printf("*");
+            else if(i==4 && j>2)                           // for middle row
+                printf("* ");
                 
+            else if(j==5 && (i==2 || i==5 || i==6))       // for fifth row
+                printf("* ");
+                               
             else
                 printf("  ");
         }
