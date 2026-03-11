@@ -17,6 +17,7 @@ void main()
 		printf("Enter a %d: ",i); // for input elements
 		scanf("%d",&a[i]);
 	}
+	printf("\n-------------output---------------\n");
 	
 	printf("Even Elements in the array :\n"); // for print even elements
 	for(i=1; i<=n; i++)
@@ -27,6 +28,7 @@ void main()
 		}
 	}
 }
+
 
 
 
