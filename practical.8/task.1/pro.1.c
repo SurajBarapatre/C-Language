@@ -17,7 +17,7 @@ void main()
 		printf("Enter a [%d]: ",i); // for input elements
 		scanf("%d",&a[i]);
 	}
-	printf("\n");
+	printf("\n-------------output---------------\n");
 	
 	printf("Array whole Elements :"); // for display elements
 	for(i=0; i<n; i++)
@@ -25,4 +25,5 @@ void main()
 		printf("%d ", a[i]);
 	}
 }
+
 
