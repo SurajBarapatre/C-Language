@@ -18,12 +18,13 @@ void main()
 		printf("Enter a[%d]: ",n); // for input array elements
         scanf("%d", &a[i]);
     }
+    printf("\n-------------output---------------\n");
 
     printf("Array in reverse order:\n"); // for print array in reverse order
     for(i=n-1; i>=0; i--)
     {
         printf("%d ", a[i]);
     }
+    
 }
-
 
