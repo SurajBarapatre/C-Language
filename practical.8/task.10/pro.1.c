@@ -9,12 +9,12 @@ void main()
 	
 	int n,i,j;
 
-    printf("Enter number of elements: "); // for input numbe of elements
+    printf("Enter number of elements: ");                    // for input numbe of elements
     scanf("%d",&n);
 
     int a[n];
 
-    printf("Enter %d elements:\n", n); // for input array elements
+    printf("Enter %d elements:\n", n);                     // for input array elements
     
 	for(i=0; i<n; i++)
     {
@@ -24,7 +24,7 @@ void main()
     
     printf("\n-------------output---------------\n");
 
-    for(i=0; i<n; i++)              // for print multiplication table of each elements.
+    for(i=0; i<n; i++)                                    // for print multiplication table of each elements.
     {
         printf("\n Multiplication table of %d :\n", a[i]);
 
@@ -35,3 +35,4 @@ void main()
     }
 
 }
+
