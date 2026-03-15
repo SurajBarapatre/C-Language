@@ -13,7 +13,7 @@ void main()
     printf("Enter array size: ");
     scanf("%d",&n);
 
-    printf("\nEnter array A's elements:\n");        // for input of array A element
+    printf("Enter array A's elements:\n");        // for input of array A element
     
 	for(i=0; i<n; i++) 
 	{
@@ -21,7 +21,7 @@ void main()
         scanf("%d",&a[i]);
     }
 
-    printf("\nEnter array B's elements:\n");  // for input of array B element
+    printf("Enter array B's elements:\n");  // for input of array B element
     
 	for(i=0; i<n; i++) 
 	{
@@ -34,7 +34,7 @@ void main()
         c[i] = a[i] + b[i];
     }
 
-    printf("\nArray C is: ");              // for display of sum of elements
+    printf("Array C is: ");              // for display of sum of elements
     
     for(i=0; i<n; i++) 
 	{
