@@ -7,14 +7,13 @@ void main()
 	
                                                  // for store the original matrix (array) and transpose matrix (array)
     int i,j,rows,cols;
+	int a[10][10],t[10][10];
 
     printf("Enter number of rows: ");       // for input rows and columns
     scanf("%d",&rows);
 
     printf("Enter number of columns: ");
     scanf("%d",&cols);
-
-	int a[i][j],t[i][j];
     
     printf("\n");
  
