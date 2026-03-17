@@ -14,7 +14,7 @@ void main()
     printf("Enter number of columns: ");
     scanf("%d",&cols);
 
-	int[i][j],;
+	int a[i][j],t[i][j];
     
     printf("\n");
  
