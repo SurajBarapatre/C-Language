@@ -5,7 +5,7 @@ void main()
 {
 	// develop a program that finds all the transpose matrix in 2D array
 	
-	int a[10][10], t[10][10];             // for store the original matrix (array) and transpose matrix (array)
+                                                 // for store the original matrix (array) and transpose matrix (array)
     int i,j,rows,cols;
 
     printf("Enter number of rows: ");       // for input rows and columns
@@ -13,6 +13,8 @@ void main()
 
     printf("Enter number of columns: ");
     scanf("%d",&cols);
+
+	int[i][j],;
     
     printf("\n");
  
