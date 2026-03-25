@@ -8,7 +8,7 @@ void main()
 	   char reverse [50];
 	   int i,j,check=0,length=0;                          // for input of string      
 	   
-	   printf("Enter any string : ");                     // for display string by user
+	   printf("Enter any string : ");                     // for printing string by user
 	   gets(name);
 	   
 	  while(name[length]!=NULL)                           // for finding length name of string
@@ -16,7 +16,7 @@ void main()
 	  	length++;
 	  }
 	  
-	  printf("\nlength of string : %d\n",length);
+	  printf("\nlength of string : %d\n",length);           // for printing length of string
 	  
 	  j=length-1;                                        // for decrement in variable j              
 	  
@@ -25,11 +25,11 @@ void main()
 	  	reverse[i] = name[j];       // 
 	  	j--;                    // 
 	  }
-	     printf("\n Reverse string is %s",reverse);    // display reverse name of string
+	     printf("\n Reverse string is %s",reverse);    //  prinitng reverse name of string
 	     
 	     printf("\n");
 	     
-	     for(i=0; i<length; i++)                      // for check to string name is paliadrom or not
+	     for(i=0; i<length; i++)                      // for check to string name is paliadrom or not by user
 	     {
 	     	if (name[i]!= reverse[i])  
 	     	{
