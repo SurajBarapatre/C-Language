@@ -6,40 +6,40 @@ void main()
 	       
 	   char name[50];
 	   char reverse [50];
-	   int i,j,check=0,length=0;             
+	   int i,j,check=0,length=0;                          // for input of string      
 	   
-	   printf("Enter any string : ");
+	   printf("Enter any string : ");                     // for display string by user
 	   gets(name);
 	   
-	  while(name[length]!=NULL)
+	  while(name[length]!=NULL)                           // for finding length name of string
 	  {
 	  	length++;
 	  }
 	  
 	  printf("\nlength of string : %d\n",length);
 	  
-	  j=length-1;              //
+	  j=length-1;                                        // for decrement in variable j              
 	  
-	  for(i=0; i<length; i++)  // 
+	  for(i=0; i<length; i++)                          // for finding revense name of string
 	  {
 	  	reverse[i] = name[j];       // 
 	  	j--;                    // 
 	  }
-	     printf("\n Reverse string is %s",reverse);  
+	     printf("\n Reverse string is %s",reverse);    // display reverse name of string
 	     
 	     printf("\n");
 	     
-	     for(i=0; i<length; i++)
+	     for(i=0; i<length; i++)                      // for check to string name is paliadrom or not
 	     {
-	     	if (name[i]!= reverse[i])  //
+	     	if (name[i]!= reverse[i])  
 	     	{
 	     		check=1;
-	     		break; 
+	     		break;                               
 			 }
 		 }
-		 if(check==0)
+		 if(check==0)                                               // for display string name by user
 		 {
-		 	printf("\nthe given string is a Palindrome !");
+		 	printf("\nthe given string is a Palindrome !");        
 		 }
 		 else
 		 {
