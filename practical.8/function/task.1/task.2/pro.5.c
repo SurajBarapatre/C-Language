@@ -1,31 +1,26 @@
 #include<stdio.h>
 
-void main()
+// wap to print n to 1 using function
 
+void printReverse(int n)                          // for created function
 {
-	// wap to print only even elements of array
+  int i; 
+  
+  for(i=n; i>=1; i--)                   // for condtion when i becomes greater than 1
+  {
+  	printf("%d ", i);                  // for print the current value of i
+  }
 	
-	int n,i;
-	
-	printf("Enter the Size of array : "); // for input size of array
-	scanf("%d",&n);
-	
-	int a[n];                 
-	
-	for(i=1; i<=n; i++)
-	{
-		printf("Enter a %d: ",i); // for input elements
-		scanf("%d",&a[i]);
-	}
-	
-	printf("Even Elements in the array :\n"); // for print even elements
-	for(i=1; i<=n; i++)
-	{
-		if(a[i]%2==0)
-		{
-			printf("%d ",a[i]);
-		}
-	}
 }
 
-
+void main()
+{
+	int n;
+	
+	printf("Enter Value of N: ");       // for printing message value of N
+	scanf("%d",&n);
+	
+	printf("\n");
+	
+	printReverse(n);                        // for function call when user needed
+}
