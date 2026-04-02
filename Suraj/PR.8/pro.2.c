@@ -42,6 +42,6 @@ void main()
 		
 	}
 	printf("\nCubes of All Elements -");
-	cubes(&a,rows,cols);
+	cubeElements(&arr[0][0], rows, cols);
 }
 
