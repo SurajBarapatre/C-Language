@@ -22,7 +22,7 @@ int main()
 	char name[20];
 	
 	printf("Enter a string : ");
-	scanf("%s",&name);
+	gets(name);
 	
 	printf("\n");
 	
