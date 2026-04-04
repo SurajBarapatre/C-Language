@@ -35,7 +35,7 @@ void main()
     {
         printf("\n");
         
-        printf("----Calculator Menu----\n");                // enter control loop for user instruction using UDF function
+        printf("\n----Calculator Menu----\n");                // enter control loop for user instruction using UDF function
         printf("\nPress 1 for Addition{+}");
         printf("\nPress 2 for Subtraction {-} ");
         printf("\nPress 3 for Multiplication {*} ");
