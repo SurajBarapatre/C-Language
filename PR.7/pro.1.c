@@ -82,7 +82,7 @@ void main()
             printf("\nDivision of a and b is : %d",answer);
             break;
             
-        case 5:                                              // this case get answer of division
+        case 5:                                              // this case get answer of module
             answer = module(a,b);
             printf("\nModule of a and b is : %d",answer);
             break;
