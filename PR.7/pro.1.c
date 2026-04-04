@@ -62,7 +62,7 @@ void main()
 
         switch(choice)                                     // for executed choice based on by user
         {
-        case 1:                                            // this case get answer of aadition
+        case 1:                                            // this case get answer of addition
             answer = addition(a,b);
             printf("\nAddition of a and b is : %d",answer);
             break;
