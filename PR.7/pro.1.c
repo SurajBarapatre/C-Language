@@ -31,7 +31,7 @@ void main()
 {
     int a,b,answer,choice;                                  // for user input 
 
-    while(1)
+    while(choice!=0)
     {
         printf("\n");
         
